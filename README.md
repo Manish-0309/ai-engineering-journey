@@ -1,37 +1,55 @@
-# ai-engineering
-Tracking AI Engineering Learning
+# AI Engineering Journey
 
-# Day 1 - Python Basics
+A topic-based record of my progress as I learn AI engineering. This README tracks what I am learning by subject, rather than by day.
+
+## Learning roadmap
+
+- [x] Python foundations
+- [ ] Data handling and software development foundations
+- [ ] Machine learning and deep learning
+- [ ] Generative AI and large language models
+- [ ] Prompt engineering and LLM application development
+- [ ] Embeddings, vector databases, and retrieval-augmented generation (RAG)
+- [ ] AI agents and workflows
+- [ ] Evaluation, deployment, and monitoring
+
+## Topics covered
+
+### Python foundations
+
+#### Python basics
 
 - **Introduction to Python**: High-level, interpreted, general-purpose programming language with dynamic typing and multi-paradigm support
-- **Print Function**: Using `print()` with custom separators and end characters
+- **Print function**: Using `print()` with custom separators and end characters
 - **Variables**: Dynamic typing, multiple assignments, and value swapping
-- **Data Types**: Numeric (int, float, complex), Boolean, Sequence (list, tuple, range), Mapping (dictionary), Set, and None types
-- **Type Checking**: Using `type()` function to identify variable data types
-- **User Input**: Taking input with `input()` function and type casting (implicit and explicit conversions)
+- **Data types**: Numeric (`int`, `float`, `complex`), Boolean, sequence (`list`, `tuple`, `range`), mapping (dictionary), set, and `None` types
+- **Type checking**: Using `type()` to identify variable data types
+- **User input**: Taking input with `input()` and type casting (implicit and explicit conversions)
 
-## Operators in Python:
-- Arithmetic Operators
-- Assignment Operators
-- Comparison Operators
-- Logical Operators
-- Bitwise Operators
-- Membership Operators
-- Identity Operators
+#### Operators
 
-## Control Flow
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Bitwise operators
+- Membership operators
+- Identity operators
 
-- **Control flow** allows Python programs to make decisions, repeat tasks, and jump executions. Without control flow, programs execute from top to bottom.
+#### Control flow
 
-### Topics Covered
-- **Conditionals**: if, elif, else statements for decision making
-- **Truthiness**: Truthy and falsy values in Python
-- **Loops**: for and while loops for repetitive tasks
-- **Loop Control**: break, continue, and pass statements
+Control flow lets Python programs make decisions, repeat tasks, and change execution order. Without it, programs execute from top to bottom.
 
-# Day 2 - Data Structures
+- **Conditionals**: `if`, `elif`, and `else` statements for decision making
+- **Truthiness**: Truthy and falsy values
+- **Loops**: `for` and `while` loops for repetitive tasks
+- **Loop control**: `break`, `continue`, and `pass` statements
 
-## List
+#### Data structures
 
-### Topics Covered
-- **List**: list basics, list methods, list slicing, enumerate(), len(), list comprehension
+##### Lists
+
+- List basics and methods
+- List slicing
+- `enumerate()` and `len()`
+- List comprehensions
