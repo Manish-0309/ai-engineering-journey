@@ -53,3 +53,27 @@ Control flow lets Python programs make decisions, repeat tasks, and change execu
 - List slicing
 - `enumerate()` and `len()`
 - List comprehensions
+
+##### Tuples
+
+- Tuple basics and immutability
+- Tuple creation and indexing
+- Tuple unpacking and multiple assignment
+- Tuple slicing and iteration
+- Common tuple use cases
+
+##### Sets
+
+- Set creation and uniqueness of elements
+- Set operations: union, intersection, difference, symmetric difference
+- Adding and removing items
+
+
+##### Dictionaries
+
+- Dictionary creation and key-value pairs
+- Accessing values with keys
+- Updating, adding, and removing entries
+- Common dictionary methods (`keys()`, `values()`, `items()`, `get()`, `update()`)
+- Iterating through dictionaries
+- Nested dictionaries and dictionary comprehensions
