@@ -63,3 +63,22 @@ print(my_list.index(0))
 # clear(): remove all elements from the list
 my_list.clear()
 print(my_list)
+
+# Nested list can be created by using list as an element of another list. It can be used to represent 2D arrays or matrices.
+# creating nested list
+nums = [[1,2,3], [4,5,6]]
+print(nums[0][:])
+
+
+# Additional list methods
+# sum(): return sum of all the elements in the list
+# len(): return length of the list
+# min(): return minimum element
+# max(): return maximum element from the list 
+
+# List Comprehension: a concise way to create list from existing iterables
+        # syntax
+        # [expression for i in iterable if condition]
+
+even_list = [x for x in range(10) if x%2 == 0]
+print(even_list)
