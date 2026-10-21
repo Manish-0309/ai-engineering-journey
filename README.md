@@ -77,3 +77,12 @@ Control flow lets Python programs make decisions, repeat tasks, and change execu
 - Common dictionary methods (`keys()`, `values()`, `items()`, `get()`, `update()`)
 - Iterating through dictionaries
 - Nested dictionaries and dictionary comprehensions
+
+#### Functions
+
+- Defining and calling reusable functions with `def`
+- Parameters and arguments, including single and multiple parameters
+- Default parameter values and return values
+- Variable-length arguments: `*args` for positional arguments and `**kwargs` for keyword arguments
+- Combining positional and keyword arguments, and the rule that positional arguments must come before keyword arguments in a call
+- Recursive functions and the importance of a base case
