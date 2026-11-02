@@ -1,0 +1,18 @@
+write() will overwrite everything in the existing file.Information can be stored in RAM(temporarily) and it can be save(permanently). To save a file we need a file system.
+
+Type of file:
+1. Text Files: Human readable ASCII or UTF-8 characters.
+        eg. : .txt, .csv, .json
+
+2. Binary Files: Store data in raw binary format(0s, 1s). Not human readable.
+        eg. : .png, .jpeg, .mp3, .mp4, .mov, etc
+
+Commaon tasks we can perform with files:
+    open, read, write, close
+
+Modes in Python to perform above mentioned tasks:
+r - read file
+w - write into file (overwrite the entire comtent)
+a- append into the file, from the end of the file
+r+ - first read then write into the file
+w+ - first write and then read
