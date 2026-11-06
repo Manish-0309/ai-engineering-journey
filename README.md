@@ -86,3 +86,45 @@ Control flow lets Python programs make decisions, repeat tasks, and change execu
 - Variable-length arguments: `*args` for positional arguments and `**kwargs` for keyword arguments
 - Combining positional and keyword arguments, and the rule that positional arguments must come before keyword arguments in a call
 - Recursive functions and the importance of a base case
+
+#### Lambda, map, and filter
+
+- **Lambda functions**: Anonymous, single-expression functions, including examples with multiple arguments and sorting with a `key` function. See [lambda_function.ipynb](./python/lambda_function.ipynb).
+- **`map()`**: Applying a function to each item in one or more iterables, including transforming numbers and extracting values from dictionaries. See [mapfunctions.ipynb](./python/mapfunctions.ipynb).
+- **`filter()`**: Selecting items that satisfy a condition, including filtering numbers and dictionaries. See [filterfunction.py](./python/filterfunction.py).
+
+#### File handling
+
+- Text and binary files and common file modes (`r`, `w`, `a`, `r+`, and `w+`)
+- Reading, writing, and appending content, using `with` to manage files, and writing multiple lines
+- Copying content from one file to another and counting lines in a file
+
+See the [file-handling notebook](./python/file_handling/file_handling.ipynb), [about_files.txt](./python/file_handling/about_files.txt), [writelines.txt](./python/file_handling/writelines.txt), and [countinfiles.py](./python/file_handling/countinfiles.py).
+
+## Repository guide
+
+### Python lessons
+
+- [basic.ipynb](./python/basic.ipynb): Python basics, variables, and data types
+- [operators.ipynb](./python/operators.ipynb): Python operators
+- [control_flow.ipynb](./python/control_flow.ipynb): Conditional statements and loops
+- [list.py](./python/list.py): List operations, methods, nested lists, and comprehensions
+- [list_slicing.ipynb](./python/list_slicing.ipynb): List slicing examples
+- [tuples.ipynb](./python/tuples.ipynb): Tuple operations
+- [sets.ipynb](./python/sets.ipynb): Set operations
+- [dictionary.ipynb](./python/dictionary.ipynb): Dictionary operations
+- [functions.ipynb](./python/functions.ipynb): Function examples
+- [lambda_function.ipynb](./python/lambda_function.ipynb): Lambda expressions
+- [mapfunctions.ipynb](./python/mapfunctions.ipynb): The `map()` built-in
+- [filterfunction.py](./python/filterfunction.py): The `filter()` built-in
+
+### File handling examples
+
+- [file_handling.ipynb](./python/file_handling/file_handling.ipynb): Reading, writing, appending, and copying file content
+- [about_files.txt](./python/file_handling/about_files.txt): Text-file example used by the file-handling lesson
+- [writelines.txt](./python/file_handling/writelines.txt): Text-file example for line-based writing
+- [countinfiles.py](./python/file_handling/countinfiles.py): Counts the lines in a file
+
+### Practice
+
+- [product_collection.ipynb](./practice1/product_collection.ipynb): Practice with product lists and tuples and a category set
