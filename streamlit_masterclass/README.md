@@ -19,9 +19,10 @@ The goal is not just to learn Streamlit functions but to understand how Streamli
 7. [Normal Python Variables vs Session State](#7-normal-python-variables-vs-session-state)
 8. [Introduction to Session State](#8-introduction-to-session-state)
 9. [Practical Projects](#9-practical-projects)
-10. [Common Mistakes and Troubleshooting](#10-common-mistakes-and-troubleshooting)
-11. [Important Commands](#11-important-commands)
-12. [Learning Roadmap](#12-learning-roadmap)
+10. [Streamlit Files in This Folder](#10-streamlit-files-in-this-folder)
+11. [Common Mistakes and Troubleshooting](#11-common-mistakes-and-troubleshooting)
+12. [Important Commands](#12-important-commands)
+13. [Learning Roadmap](#13-learning-roadmap)
 
 ---
 
@@ -377,10 +378,70 @@ For permanent storage, we need databases or other persistent storage solutions.
 
 # 9. Practical Projects
 
-## Project 1: Personal Profile Dashboard
-## Project 2: Counter Application
+These exercises are the first practical applications built while learning Streamlit.
 
-# 10. Common Mistakes and Troubleshooting
+## Project 1: Personal Profile Dashboard
+This project focuses on basic user input, profile creation and simple dashboard design.
+
+Key files:
+
+- `profile_generator.py` — collects user details such as name, age, role, skills and experience, then displays a generated profile.
+- `personal_profile_dashboard.py` — creates a personal dashboard with about-me text, skills and a small project summary.
+
+## Project 2: Counter Application
+This project demonstrates why normal Python variables are not enough in Streamlit.
+
+Key file:
+
+- `counter.py` — uses `st.session_state` to store and update a count across reruns.
+
+## Project 3: Input Widgets and Data Display
+This project explores widgets and data presentation.
+
+Key files:
+
+- `input_widgets.py` — shows `text_input()`, `text_area()`, `number_input()`, `slider()`, `selectbox()`, `multiselect()`, `checkbox()`, `radio()` and `button()`.
+- `data_practice.py` — builds a mini sales dashboard using Pandas and `st.metric()`, `st.dataframe()` and `st.table()`.
+- `displaying_data.py` — demonstrates `st.dataframe()`, `st.table()`, `st.image()` and `st.json()`-style data display patterns.
+
+## Project 4: First Streamlit App
+The first application used to validate that Streamlit is correctly installed and running.
+
+Key file:
+
+- `app.py` — minimal "Hello, welcome to Streamlit" app with a success message.
+
+# 10. Streamlit Files in This Folder
+
+This folder contains the core learning files for the Streamlit masterclass.
+
+| File | Purpose |
+|---|---|
+| `app.py` | First working Streamlit app and installation verification |
+| `counter.py` | Session state counter example |
+| `input_widgets.py` | Demonstrates common user input widgets |
+| `data_practice.py` | Basic analytics dashboard with sales metrics |
+| `displaying_data.py` | Data presentation using tables, images and text |
+| `profile_generator.py` | User profile generator app |
+| `personal_profile_dashboard.py` | Personal portfolio/profile dashboard |
+| `requirements.txt` | Python dependencies required for this project |
+| `.gitignore` | Ignores local virtual environments and cache files |
+
+Run an app using:
+
+```powershell
+python -m streamlit run app.py
+```
+
+Or run a specific exercise:
+
+```powershell
+python -m streamlit run counter.py
+python -m streamlit run input_widgets.py
+python -m streamlit run profile_generator.py
+```
+
+# 11. Common Mistakes and Troubleshooting
 
 | Problem | Explanation / Solution |
 |---|---|
@@ -397,7 +458,7 @@ For permanent storage, we need databases or other persistent storage solutions.
 ```powershell
 python -m streamlit run app.py --server.port 8502
 ```
-# 11. Important Commands
+# 12. Important Commands
 
 | Command | Purpose |
 |---|---|
@@ -414,7 +475,7 @@ python -m streamlit run app.py --server.port 8502
 
 ---
 
-# 12. Learning Roadmap
+# 13. Learning Roadmap
 
 This is the roadmap we'll follow throughout the course.
 
@@ -424,8 +485,8 @@ This is the roadmap we'll follow throughout the course.
 - [x] Lesson 2: Installation and Environment Setup
 - [x] Lesson 3: Your First Streamlit Application
 - [x] Lesson 4: Execution Model and Reruns
-- [ ] Lesson 5: Displaying Text, Data and Messages
-- [ ] Lesson 6: Buttons, Checkboxes and User Inputs
+- [x] Lesson 5: Displaying Text, Data and Messages
+- [x] Lesson 6: Buttons, Checkboxes and User Inputs
 
 ## Phase 2: Layout and UI Components
 
